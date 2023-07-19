@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/p5/lib/p5.min.js"></script>
+    <!-- insert after p5.js -->
+    <script src="https://cdn.jsdelivr.net/npm/p5.capture@1.4.1/dist/p5.capture.umd.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gifshot/0.4.0/gifshot.min.js"></script>
+  
+    <title>ImpressumTrading.com's Things and Stuff NFT Glowy Maker!</title>
+
+    <style>
+        /* CSS styles */
+        .right-align {
+            text-align: right;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="right-align">
+        <h1>ImpressumTrading.com's Things and Stuff NFT Glowy Maker!</h1>
+
+        <input type="text" id="imgUrl" placeholder="Enter image URL here">
+        <button onclick="loadNewImage()">Load Image</button>
+    </div>
+
+    <div id="canvasContainer"></div>
+
+    <p><ImpressumTrading class="com"></ImpressumTrading>.</p>
+
+    <script src="sketch.js"></script>
+
+    <script>
+        function keyPressed() {
+            if (key == 's') {
+                SaveGif();
+            }
+        }
+    </script>
+
+</body>
+</html>
